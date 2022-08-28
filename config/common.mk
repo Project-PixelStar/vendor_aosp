@@ -118,7 +118,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    DummyCutoutOverlay
+    DummyCutoutOverlay \
+    ThemedIconsOverlay
 
 # GameSpace
 PRODUCT_PACKAGES += \
@@ -247,8 +248,5 @@ $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
-
-# Themed icons
-$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
