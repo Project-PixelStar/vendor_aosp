@@ -43,7 +43,6 @@ except ImportError:
 DEBUG = False
 
 custom_local_manifest = ".repo/local_manifests/pixel.xml"
-custom_default_revision = os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'thirteen-plus')
 custom_fallback_revision = 'thirteen'
 uses_fallback_revision = False
 custom_dependencies = "aosp.dependencies"
