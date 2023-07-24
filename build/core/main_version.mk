@@ -26,8 +26,11 @@ endif
 
 # Versioning props
 ADDITIONAL_SYSTEM_PROPERTIES  += \
-    org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
-    org.pixelexperience.version.display=$(CUSTOM_VERSION) \
-    org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
-    org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
+    org.pixelstar.version=$(PixelStar_BASE_VERSION) \
+    org.pixelstar.version.display=$(CUSTOM_VERSION) \
+    org.pixelstar.build_date=$(CUSTOM_BUILD_DATE) \
+    org.pixelstar.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.pixelstar.build_type=$(CUSTOM_BUILD_TYPE) \
+    org.pixelstar.codename=$(PixelStar_BASE_VERSION) \
+    org.pixelstar.build_version=$(PixelStar_BUILD_VERSION) \
+    ro.pixelstar.maintainer=$(PIXELSTAR_MAINTAINER)
