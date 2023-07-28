@@ -60,13 +60,17 @@ PRODUCT_PACKAGES += \
 # Customization overlays
 PRODUCT_PACKAGES += \
     FontGInterOverlay \
+    FontFucekSourceOverlay \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontNotoSerifSource \
     FontOnePlusSansOverlay \
-    FontOneplusSlateSourceOverlay
+    FontOneplusSlateSourceOverlay \
+    FontRobotoCondensedOverlay \
+    FontRobotoOverlay \
+    RobotoFallback-VF.ttf
 
 PRODUCT_PACKAGES += \
     GInterVF-Italic.ttf \

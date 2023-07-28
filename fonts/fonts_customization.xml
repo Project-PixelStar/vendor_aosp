@@ -99,6 +99,20 @@
     </font>
   </family>
 
+    <family customizationType="new-named-family" name="fucek">
+        <font weight="400" style="normal">Fucek.ttf</font>
+    </family>
+    <alias name="fucek-semi-bold" to="fucek" weight="600" />
+    <alias name="fucek-bold" to="fucek" weight="700" />
+    <alias name="times" to="fucek" />
+    <alias name="times new roman" to="fucek" />
+    <alias name="palatino" to="fucek" />
+    <alias name="georgia" to="fucek" />
+    <alias name="baskerville" to="fucek" />
+    <alias name="goudy" to="fucek" />
+    <alias name="fantasy" to="fucek" />
+    <alias name="ITC Stone Serif" to="fucek" />
+
   <family customizationType="new-named-family" name="google-sans-text">
     <font weight="400" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -458,4 +472,83 @@
     <alias name="op-sans-medium" to="op-sans" weight="500" />
     <alias name="op-sans-bold" to="op-sans" weight="700" />
     <alias name="op-sans-black" to="op-sans" weight="900" />
+
+    <family customizationType="new-named-family" name="robotocondensed">
+        <font weight="300" style="normal">RobotoCondensed-Light.ttf</font>
+        <font weight="300" style="italic">RobotoCondensed-LightItalic.ttf</font>
+        <font weight="400" style="normal">RobotoCondensed-Regular.ttf</font>
+        <font weight="400" style="italic">RobotoCondensed-Italic.ttf</font>
+        <font weight="500" style="normal">RobotoCondensed-Medium.ttf</font>
+        <font weight="500" style="italic">RobotoCondensed-MediumItalic.ttf</font>
+        <font weight="700" style="normal">RobotoCondensed-Bold.ttf</font>
+        <font weight="700" style="italic">RobotoCondensed-BoldItalic.ttf</font>
+    </family>
+    <alias name="robotocondensed-light" to="robotocondensed" weight="300" />
+    <alias name="robotocondensed-regular" to="robotocondensed" weight="400" />
+    <alias name="robotocondensed-medium" to="robotocondensed" weight="500" />
+    <alias name="robotocondensed-bold" to="robotocondensed" weight="700" />
+ <family customizationType="new-named-family" name="roboto-system">
+        <font weight="400" style="normal">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="0"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="400"/>
+        </font>
+        <font weight="400" style="italic">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="1"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="400"/>
+        </font>
+        <font weight="500" style="normal">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="0"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="500"/>
+        </font>
+        <font weight="500" style="italic">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="1"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="500"/>
+        </font>
+        <font weight="600" style="normal">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="0"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="600"/>
+        </font>
+        <font weight="600" style="italic">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="1"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="600"/>
+        </font>
+        <font weight="700" style="normal">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="0"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="700"/>
+        </font>
+        <font weight="700" style="italic">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="1"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="700"/>
+        </font>
+        <font weight="800" style="normal">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="0"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="800"/>
+        </font>
+        <font weight="800" style="italic">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="1"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="800"/>
+        </font>
+        <font weight="900" style="normal">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="0"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="900"/>
+        </font>
+        <font weight="900" style="italic">RobotoSystem-VF.ttf
+            <axis tag="ital" stylevalue="1"/>
+            <axis tag="wdth" stylevalue="100"/>
+            <axis tag="wght" stylevalue="900"/>
+        </font>
+    </family>
+    <alias name="roboto-system-medium" to="roboto-system" weight="500" />
+
 </fonts-modification>
