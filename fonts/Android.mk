@@ -36,8 +36,7 @@ endef
 font_src_files := \
     GoogleSans-Italic.ttf \
     GoogleSans-Regular.ttf \
-    GoogleSansClock-Regular.ttf \
-    GoogleSansFlex-Regular.ttf
+    GoogleSansClock-Regular.ttf
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
