@@ -85,6 +85,6 @@
     <bool name="config_performantAuthDefault">true</bool>
 
     <!-- Name of the font family to use in the default lockscreen clock -->
-    <string name="config_clockFontFamily">google-sans-clock</string>
+    <string name="config_clockFontFamily">>@*android:string/config_headlineFontFamily</string>
 
 </resources>
