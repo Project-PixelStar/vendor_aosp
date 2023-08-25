@@ -196,6 +196,17 @@ PRODUCT_PACKAGES += \
     Aperture
 endif
 
+# DesktopMode
+ifneq ($(TARGET_WITHOUT_DESKTOPMODE), true)
+PRODUCT_PACKAGES += \
+    DesktopMode
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.software.freeform_window_management.xml
+
+$(call inherit-product, packages/services/VncFlinger/product.mk)
+endif
+
 # Use gestures by default
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
