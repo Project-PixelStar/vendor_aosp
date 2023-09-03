@@ -258,4 +258,7 @@ $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
 
+#Pixel Launcher Extended
+$(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
