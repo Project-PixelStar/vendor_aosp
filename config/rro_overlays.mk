@@ -4,6 +4,8 @@ PRODUCT_PACKAGES += \
     PixelLauncherCustomOverlay \
     PixelDocumentsUIGoogleOverlay \
     BuiltInPrintServiceOverlay \
+    GoogleDeviceLockControllerOverlay \
+    GoogleHealthConnectOverlay \ 
     GooglePermissionControllerOverlay \
     PixelConfigOverlayCommon \
     TeleServiceOverlay \
