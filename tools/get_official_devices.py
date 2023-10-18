@@ -14,12 +14,12 @@ except:
     urllib.parse = urlparse
     urllib.request = urllib2
 try:
-    url = "https://raw.githubusercontent.com/PixelStar-Devices/weekly_updates_ota/thirteen/devices.json"
+    url = "https://raw.githubusercontent.com/PixelStar-Devices/weekly_updates_ota/14/devices.json"
     response = urllib.request.urlopen(url, timeout=10)
     data = json.loads(response.read())
     for res in data:
         for version in res['supported_versions']:
-            if version['version_code'] == 'thirteen_plus':
+            if version['version_code'] == '14':
                 print (res['codename'])
                 break
 except:

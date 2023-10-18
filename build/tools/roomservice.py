@@ -42,8 +42,8 @@ except ImportError:
 
 DEBUG = False
 
-custom_local_manifest = ".repo/local_manifests/pixel.xml"
-custom_fallback_revision = 'thirteen'
+custom_local_manifest = ".repo/local_manifests/snippets/pixelstar.xml"
+custom_fallback_revision = '14'
 uses_fallback_revision = False
 custom_dependencies = "aosp.dependencies"
 org_manifest = "pixelstar-devices"  # leave empty if org is provided in manifest

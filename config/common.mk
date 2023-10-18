@@ -53,8 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
 
 # Copy all custom init rc files
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/init/init.pixelstar-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelstar-updater.rc
+#PRODUCT_COPY_FILES += \
+#    vendor/aosp/prebuilt/common/etc/init/init.pixelstar-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelstar-updater.rc
 
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
@@ -201,14 +201,14 @@ TARGET_SUPPORTS_CALL_RECORDING ?= true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
-ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
-PRODUCT_PACKAGES += \
-    FaceUnlockService
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face_unlock_service.enabled=$(TARGET_FACE_UNLOCK_SUPPORTED)
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
-endif
+#ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
+#PRODUCT_PACKAGES += \
+#    FaceUnlockService
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.face_unlock_service.enabled=$(TARGET_FACE_UNLOCK_SUPPORTED)
+#PRODUCT_COPY_FILES += \
+#    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
+#endif
 
 # Repainter integration
 PRODUCT_PACKAGES += \
@@ -237,9 +237,9 @@ $(call inherit-product, vendor/aosp/config/ota.mk)
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
 # Pixel Framework
-$(call inherit-product, vendor/pixel-framework/config.mk)
+#$(call inherit-product, vendor/pixel-framework/config.mk)
 
 # Themed icons
-$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
+#$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
